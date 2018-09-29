@@ -1,0 +1,30 @@
+.button{
+  background: #45beff;
+  border: none;
+  padding: 1em 2em;
+  font-size: 16px;
+
+  &:hover {
+    opacity: 0.75;
+  }
+  &:disabled{
+    opacity: 0.25;
+  }
+  &--large{
+    font-size: 20px;
+  }
+  &--small{
+    font-size: 10px;
+  }
+  &--warning{
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  &--primary{
+    color: #10a900;
+    background-color: #261cff;
+    border-color: #ff1ff4;
+
+  }
+}

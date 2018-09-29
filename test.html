@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Title</title>
 </head>
 <body>
@@ -59,15 +59,15 @@
 
 <h1 align="center"> Применение Flex</h1>
 
-        <div class="flex color">Флекс контейнер</div>
+        <div class="row color">Флекс контейнер</div>
 <hr>
-        <div class="flex flex-row color">
+        <div class="row flex-row color">
             <div class="pad color">Флекс элемент 1</div>
             <div class="pad color">Флекс элемент 2</div>
             <div class="pad color">Флекс элемент 3</div>
         </div>
 <hr>
-        <div class="flex flex-column color">
+        <div class="row flex-column color">
             <div class="pad color">Флекс элемент 1</div>
             <div class="pad color">Флекс элемент 2</div>
             <div class="pad color">Флекс элемент 3</div>
@@ -94,6 +94,18 @@
     <div class="pad color">Флекс элемент 1</div>
     <div class="pad color">Флекс элемент 2</div>
     <div class="pad color">Флекс элемент 3</div>
+</div>
+<button class ="button button--warning"></button>
+<label class="container">CheckBox
+    <input type="checkbox">
+    <span class="checkmark"></span>
+</label>
+
+<div class="input-group input-group-lg">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Input</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 </div>
 </body>
 </html>

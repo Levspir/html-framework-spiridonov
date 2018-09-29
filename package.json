@@ -1,0 +1,26 @@
+{
+  "name": "epamcourse",
+  "version": "1.0.0",
+  "description": "Задание выполнено: Спиридоновым Львом",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levspir/html-framework-spiridonov.git"
+  },
+  "author": "Lev Spiridonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Levspir/html-framework-spiridonov/issues"
+  },
+  "homepage": "https://github.com/Levspir/html-framework-spiridonov#readme"
+}

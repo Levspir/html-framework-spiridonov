@@ -1,0 +1,16 @@
+.textarea {
+  background	: $gray-200;
+  border		: 1px solid #888;
+  &:hover{
+    opacity: 0.75;
+  }
+  &:disabled{
+    opacity: 0.25;
+  }
+  &:read-only{
+    background-color: $gray-900;
+  }
+  &--error{
+    background-color: #ff111a;
+  }
+}
