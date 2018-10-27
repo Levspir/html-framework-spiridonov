@@ -4,6 +4,7 @@
   "description": "Задание выполнено: Спиридоновым Львом",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.18.0",
     "npm": "^6.4.1"
   },
   "devDependencies": {
